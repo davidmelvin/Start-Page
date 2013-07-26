@@ -1,4 +1,4 @@
-body{
+body {
 	height: 100%;
 	height: auto !important;
 	background-color: #257ADB;
@@ -8,26 +8,22 @@ body{
 	/*opacity: .8;*/
 	font-size: 100%;
 }
-footer{
+footer {
 	position: fixed;
 	bottom: 0;
 	height: 3%;
 	width: 100%;
 }
-/*#date, #time{
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
-	filter: alpha(opacity=50);
-	opacity: .8;
-
-	-webkit-transition: opacity 0.5s linear;
-	-moz-transition: opacity 0.5s linear;
-	-o-transition: opacity 0.5s linear;
-	-ms-transition: opacity 0.5s linear;
-	transition: opacity 0.5s linear;
+footer a {
+	color: white;
+	text-decoration: none;
 }
-#date:hover, #time:hover{
-	opacity: 1;
-}*/
+footer a:hover {
+	text-decoration: underline;
+}
+footer a:visited {
+	color: white;
+}
 #time{
 	font-size: 900%;
 	text-align: center;
